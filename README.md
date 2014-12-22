@@ -1,7 +1,7 @@
 # karma-growl-reporter-custom
 
-TEST & UNSTABLE.
-
+UNSTABLE. 
+First attemt to do something.
 PLZ do not use for now.
 
 > Report test results using [Growl](http://growl.info/).
