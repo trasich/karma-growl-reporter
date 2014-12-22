@@ -12,14 +12,14 @@ The easiest way is to keep `karma-growl-reporter` as a devDependency in your `pa
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-growl-reporter": "~0.1"
+    "karma-growl-reporter-custom": "~0.1"
   }
 }
 ```
 
 You can simple do it by:
 ```bash
-npm install karma-growl-reporter --save-dev
+npm install karma-growl-reporter-custom --save-dev
 ```
 
 ###
@@ -29,14 +29,14 @@ npm install karma-growl-reporter --save-dev
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    reporters: ['progress', 'growl'],
+    reporters: ['progress', 'growl-custom'],
   });
 };
 ```
 
 You can pass list of reporters as a CLI argument too:
 ```bash
-karma start --reporters growl,dots
+karma start --reporters growl-custom,dots
 ```
 
 ----
